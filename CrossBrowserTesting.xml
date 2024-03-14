@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Cross Browser Testing">
+  <test name="Test On Edge browser">
+	<parameter name="Browser" value="Edge"/>
+		<classes>
+			<class name= "com.Formy.pages.CrossBrowserTesting"/>
+		</classes>
+   </test>
+   
+   <test name="Test On chrome browser">
+	<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name="com.Formy.pages.CrossBrowserTesting"/>
+		</classes>
+	</test>
+	
+</suite>
